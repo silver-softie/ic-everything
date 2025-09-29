@@ -1,4 +1,4 @@
-package com.bradmoffat.bubbleview
+package com.bradmoffat.iceverything
 
 import android.Manifest
 import android.content.Intent
@@ -79,9 +79,9 @@ class MainActivity : ComponentActivity() {
 
     private fun startFloatingBubbleService() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            startForegroundService(Intent(this, FloatingBubbleService::class.java))
+            startForegroundService(Intent(this, BikeService::class.java))
         } else {
-            startService(Intent(this, FloatingBubbleService::class.java))
+            startService(Intent(this, BikeService::class.java))
         }
         finish()
     }

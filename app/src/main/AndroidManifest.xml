@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bradmoffat.bubbleview">
+    package="com.bradmoffat.iceverything">
 
     <!-- Permissions required for floating bubble -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -23,12 +23,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BubbleView">
+        android:theme="@style/Theme.ICEverything">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.bradmoffat.iceverything.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.BubbleView">
+            android:theme="@style/Theme.ICEverything">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -36,7 +36,7 @@
         </activity>
 
         <service
-            android:name=".FloatingBubbleService"
+            android:name="com.bradmoffat.iceverything.BikeService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="specialUse"/>

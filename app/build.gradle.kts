@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bradmoffat.bubbleview"
+    namespace = "com.bradmoffat.iceverything"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.bradmoffat.bubbleview"
+        applicationId = "com.bradmoffat.iceverything"
         minSdk = 35
         targetSdk = 36
         versionCode = 1

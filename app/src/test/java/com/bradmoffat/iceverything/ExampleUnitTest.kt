@@ -1,4 +1,4 @@
-package com.bradmoffat.bubbleview
+package com.bradmoffat.iceverything
 
 import org.junit.Test
 

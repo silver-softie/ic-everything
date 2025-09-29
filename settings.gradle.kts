@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BubbleView"
+rootProject.name = "ICEverything"
 include(":app")
  

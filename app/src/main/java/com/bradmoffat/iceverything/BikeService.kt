@@ -1,4 +1,4 @@
-package com.bradmoffat.bubbleview
+package com.bradmoffat.iceverything
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -23,7 +23,7 @@ import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.util.*
 
-class FloatingBubbleService : Service() {
+class BikeService : Service() {
 
     // --- CONFIGURATION ---
     private val BIKE_MAC_ADDRESS = "FE:E8:C4:2B:4D:9A" // Use your bike's address
